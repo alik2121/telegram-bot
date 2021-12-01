@@ -40,8 +40,8 @@ bot.use((ctx, next) => {
 })
 
 bot.command("start", ctx => {
-    ctx.reply("Halo "+ctx.from.first_name);
-    ctx.reply("Silahkan pilih menu dibawah ini...",
+    ctx.reply("Салом "+ctx.from.first_name);
+    ctx.reply("Ман чи кумак карда метавонам ?",
     {
         reply_markup: {
             inline_keyboard: [
